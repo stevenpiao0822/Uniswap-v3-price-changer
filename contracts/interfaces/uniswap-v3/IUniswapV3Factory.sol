@@ -76,5 +76,3 @@ interface IUniswapV3Factory {
     /// @param tickSpacing The spacing between ticks to be enforced for all pools created with the given fee amount
     function enableFeeAmount(uint24 fee, int24 tickSpacing) external;
 }
-
-
